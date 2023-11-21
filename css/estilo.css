@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+.icones{
+    max-width: 1em;
+
+}
+.quem-sou img{
+    max-width:10em;
+    border-radius: 50%;
+}
+.topo, .rodape, .redes-topo ul, .navegacao-topo ul, .quem-sou, .formacao, .projetos{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1em;
+    gap:1em;
+    text-align:center;
+}
+.formacao,.projetos{
+    flex-wrap: wrap;
+}
+card{
+    border:1px solid red;
+    height:250px;
+    width:300px;
+}
+card img{
+    overflow: hidden;
+    max-width: 240px;
+    max-height: 150px;
+    padding: 0.5em;
+}
