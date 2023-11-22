@@ -2,6 +2,8 @@
 
 #Atualizações
 
+- 22/11/2023 - Inclusão da "estrutura" do portfólio e alguns projetos que estão em andamento.
+
 - 21/11/2023 - Recomeçado o projeto.
 
 - 06/11/2023 - Incluídas mais algumas informações, imagens e planilha de estilos.
