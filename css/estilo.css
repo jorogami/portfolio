@@ -63,3 +63,8 @@ card img{
 .rodape{
     background-color: azure;
 }
+@media (max-width:576px){
+.topo, .rodape, .redes-topo ul, .navegacao-topo ul, .quem-sou, .formacao, .projetos{
+    display:block;
+    }
+}
