@@ -1,12 +1,28 @@
 *{
-    margin:0;
+    margin:0 auto;
+    
     padding:0;
+    font-family:Helvetica, Arial, sans-serif;
+
     list-style-type: none;
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}
+body{
+    max-width:1024px;
+}
+
 .icones{
     max-width: 1em;
 
+}
+.titulo{
+    text-align: center;
 }
 .quem-sou img{
     max-width:10em;
@@ -20,17 +36,28 @@
     gap:1em;
     text-align:center;
 }
-.formacao,.projetos{
+.quem-sou,.formacao,.projetos{
     flex-wrap: wrap;
+
 }
 card{
-    border:1px solid red;
+
     height:250px;
     width:300px;
+    background-color:azure;
 }
+card:hover{
+    box-sizing: border-box;
+    border:1px solid aqua;
+}
+
 card img{
     overflow: hidden;
+    margin-top:1em;
     max-width: 240px;
     max-height: 150px;
     padding: 0.5em;
+}
+.rodape{
+    background-color: azure;
 }
